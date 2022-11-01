@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sixteen Clothing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="background-header menu_bar">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <h2>
+                        SIXTEEN
+                        <em>
+                            CLOTHING
+                        </em>
+                    </h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Our Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                    class="active slide_button" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    class="slide_button" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    class="slide_button" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/slide_01.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h4>Best Offer</h4>
+                        <h2>New Arrivals On Sale</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slide_02.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h4>Flash Deals</h4>
+                        <h2>Get your best products</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slide_03.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h4>Last Minute</h4>
+                        <h2>Grab last minute deals</h2>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container products">
+        <div class="col-xxl-12">
+            <div class="section-heading">
+                <h2>Latest Products</h2>
+                <a href="#">view all products <i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+        <div class="row cols-pic">
+            <div class="col-xxl-4 border">
+                <img src="images/product_01.jpg" alt="">
+                <div class="content">
+                    <div class="product_info">
+                        <h4>Tittle goes here
+
+                            <span class="float-end price">$25.75</span>
+                        </h4>
+
+                    </div>
+                    <div class="product_info para">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, earum explicabo repellendus
+                        voluptates
+                    </div>
+                    <div class="product_info">
+                        <span>
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                        </span>
+                        <span class="float-end review">Review (24) </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-4 border">
+                <img src="images/product_02.jpg" alt="">
+                <div class="content">
+                    <div class="product_info">
+                        <h4>Tittle goes here
+
+                            <span class="float-end price">$30.25</span>
+                        </h4>
+
+                    </div>
+                    <div class="product_info para">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, earum explicabo repellendus
+                        voluptates
+                    </div>
+                    <div class="product_info">
+                        <span>
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                        </span>
+                        <span class="float-end review">Review (21) </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-4 border">
+                <img src="images/product_03.jpg" alt="">
+                <div class="content">
+                    <div class="product_info">
+                        <h4>Tittle goes here
+
+                            <span class="float-end price">$20.45</span>
+                        </h4>
+
+                    </div>
+                    <div class="product_info para">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, earum explicabo repellendus
+                        voluptates
+                    </div>
+                    <div class="product_info">
+                        <span>
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                        </span>
+                        <span class="float-end review">Review (36) </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-4 border">
+                <img src="images/product_04.jpg" alt="">
+                <div class="content">
+                    <div class="product_info">
+                        <h4>Tittle goes here
+
+                            <span class="float-end price">$15.25</span>
+                        </h4>
+
+                    </div>
+                    <div class="product_info para">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, earum explicabo repellendus
+                        voluptates
+                    </div>
+                    <div class="product_info">
+                        <span>
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                        </span>
+                        <span class="float-end review">Review (48) </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-4 border">
+                <img src="images/product_05.jpg" alt="">
+                <div class="content">
+                    <div class="product_info">
+                        <h4>Tittle goes here
+
+                            <span class="float-end price">$12.50</span>
+                        </h4>
+
+                    </div>
+                    <div class="product_info para">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, earum explicabo repellendus
+                        voluptates
+                    </div>
+                    <div class="product_info">
+                        <span>
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                        </span>
+                        <span class="float-end review">Review (16) </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-4 border">
+                <img src="images/product_06.jpg" alt="">
+                <div class="content">
+                    <div class="product_info">
+                        <h4>Tittle goes here
+
+                            <span class="float-end price">$22.50</span>
+                        </h4>
+
+                    </div>
+                    <div class="product_info para">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, earum explicabo repellendus
+                        voluptates
+                    </div>
+                    <div class="product_info">
+                        <span>
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                            <i class="fa-solid fa-star"></i>&nbsp;
+                        </span>
+                        <span class="float-end review">Review (32) </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container features">
+        <div class="row cnt">
+            <div class="col-xl-12 heading">
+                <h2>About Sixteen Clothing</h2>
+            </div>
+            <div class="col-xl-6">
+                <div class="left-content">
+                    <h4>Looking for the best products?</h4>
+                    <p><a href="#">This template</a> is free to use for your business websites. However, you have no
+                        permission to
+                        redistribute the downloadable ZIP file on any template collection website. <a href="#">Contact
+                            us</a> for more
+                        info.
+                    </p>
+                    <ul class="list">
+                        <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                        <li><a href="#">Consectetur an adipisicing elit</a></li>
+                        <li><a href="#">It aquecorporis nulla aspernatur</a></li>
+                        <li><a href="#">Corporis, omnis doloremque</a></li>
+                        <li><a href="#">Non cum id reprehenderit</a></li>
+                    </ul>
+                    <a href="#" class="button">Read More</a>
+                </div>
+            </div>
+            <div class="col-xl-6">
+                <div class="right-image">
+                    <img src="images/feature-image.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="inner-content">
+                    <div class="row">
+                        <div class="col-xl-8">
+                            <h4>Creative & Unique <span>Sixteen</span> Products</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque accusamus est quidem
+                                natus consequuntur possimus.</p>
+                        </div>
+                        <div class="col-xl-4">
+                            <a href="#" class="button">Purchase Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="inner-content2">
+                        <p>
+                            Copyright © 2020 Sixteen Clothing Co., Ltd.- Design:
+                            <a href="#" target="_blank">TemplateMo</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

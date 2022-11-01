@@ -1,0 +1,146 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css");
+
+.thumbnail img {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.thumbnail img:hover {
+  border: 2px solid #8cacc9;
+}
+
+.fashion {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.discount_price {
+  color: #999;
+  font-size: 15px;
+  text-decoration: line-through;
+}
+
+.discount {
+  color: green;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.offers h4 {
+  font-size: 20px;
+}
+
+.product_details {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.col-xl-8 h2 {
+  font-size: 20px;
+}
+
+.price {
+  font-size: 25px;
+}
+
+.btn_tag {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.btn_tag button {
+  width: 100% !important;
+}
+
+.modal {
+  top: 20%;
+}
+
+.wishlist {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  position: absolute;
+  top: 3%;
+  right: 8%;
+  z-index: 10;
+  border-radius: 50%;
+  box-shadow: 0 3px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 10%);
+}
+
+.wishlist a {
+  color: #999;
+}
+
+.main_img {
+  position: relative;
+  height: 100%;
+}
+
+.fa-solid {
+  padding-top: 10px;
+  font-size: 23px;
+}
+
+.main_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.p_offer {
+  font-weight: bold;
+}
+
+.offers li {
+  list-style: none;
+  font-size: 15px;
+  line-height: 35px;
+}
+
+.offers li a {
+  text-decoration: none;
+}
+
+.thumbnail_img {
+  height: 20px;
+  padding-right: 10px;
+}
+
+.accordion {
+  --bs-accordion-active-color: none !important;
+  --bs-accordion-active-bg: none !important;
+  --bs-accordion-border-color: none !important;
+  --bs-accordion-border-width: none !important;
+  --bs-accordion-border-radius: none !important;
+  --bs-accordion-inner-border-radius: none !important;
+  --bs-accordion-btn-focus-border-color: none !important;
+  --bs-accordion-btn-focus-box-shadow: none !important;
+}
+
+.accordion-item:last-of-type {
+  border-bottom-right-radius: none !important;
+  border-bottom-left-radius: none !important;
+  border: none;
+}
+
+.accordion-body {
+  line-height: 3.1rem;
+}
+
+.accordion-body .col-xl-3 {
+  color: #999;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.accordion-body .col-xl-9 {
+  font-size: 15px;
+}
+
+.forget_password {
+  text-decoration: none;
+}

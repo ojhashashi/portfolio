@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css');
+
+body{font-family: 'Roboto', sans-serif;font-size: 16px;color: #000;background: #fff;font-weight:300 ;}
+a{color: #666 !important;}
+a:hover{color: #000 !important;}
+h2{font-size: 24px;color: #FE980F;}
+.upcoming_products button{background:rgba(254,152,15,0.8) !important;color:#fff}
+
+.header{padding-top: 20px;padding-bottom: 10px;}
+.menu .bg-light{background-color: #fff !important;}
+.menu{border-bottom: 1px solid #ccc;}
+.content{padding-top: 20px;padding-bottom: 20px;}
+.brands{margin:20px 0}
+
+footer{background-color: #000;color: #fff;padding-top :20px;padding-bottom: 20px;}
+footer h3{font-weight: normal !important;}
+footer  a{padding-left: 0;color: #999 !important;}
+footer a:hover{color: #ccc !important;}
+/* .slider_indicators{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+}
+.slider img{
+    height: 450px !important;
+} */
+
+.slider{margin-top: 20px; margin-bottom: 20px;}
+.slider_content{padding-left: 60px;padding-top: 120px;}
+.slider_content h1 span{color: #FE980F;;}
+/* Media Query For Mobile < 576px */
+@media only screen and (max-width:575px){
+    /* body{background-color: gray;} */
+    .logo{/*border:solid;*/text-align: center;padding: 5px 0;}
+    .top-menu{justify-content: center !important;}
+    .top-menu a{padding-left: 7px;padding-right: 7px;}
+    .slider_content{display: none;}
+    /* footer{text-align: center;} */
+    footer .col-6{padding-left: 10%;padding-bottom: 5%;}
+}
